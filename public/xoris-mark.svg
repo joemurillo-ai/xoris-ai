@@ -1,0 +1,15 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#xorisGlow)">
+    <path d="M12 14H25L84 82H71L12 14Z" fill="#14D6DC"/>
+    <path d="M84 14H71L12 82H25L84 14Z" fill="#14D6DC"/>
+    <path d="M36 14H47L62 31.5H51L36 14Z" fill="#82F1F0" fill-opacity=".62"/>
+    <path d="M60 82H49L34 64.5H45L60 82Z" fill="#82F1F0" fill-opacity=".62"/>
+    <path d="M41 45.5H55L48 54.2L41 45.5Z" fill="#03080B" fill-opacity=".92"/>
+    <path d="M41 50.5H55L48 41.8L41 50.5Z" fill="#03080B" fill-opacity=".92"/>
+  </g>
+  <defs>
+    <filter id="xorisGlow" x="6" y="8" width="84" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.4" flood-color="#14D6DC" flood-opacity=".22"/>
+    </filter>
+  </defs>
+</svg>

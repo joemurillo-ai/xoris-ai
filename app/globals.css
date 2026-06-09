@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --background: #03080b;
+  --foreground: #f7fbfc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at 72% 0%, rgba(21, 215, 223, 0.11), transparent 30%),
+    linear-gradient(180deg, #03080b 0%, #061016 44%, #03080b 100%);
+  color: var(--foreground);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(21, 215, 223, 0.28);
+  color: #ffffff;
+}
+
+.glass-panel {
+  border: 1px solid rgba(127, 240, 242, 0.14);
+  background: linear-gradient(180deg, rgba(11, 28, 36, 0.86), rgba(5, 14, 19, 0.88));
+  box-shadow: 0 24px 90px rgba(0, 0, 0, 0.38);
+}
+
+.hairline {
+  background: linear-gradient(90deg, transparent, rgba(21, 215, 223, 0.45), transparent);
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(21, 215, 223, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(21, 215, 223, 0.06) 1px, transparent 1px);
+  background-size: 46px 46px;
+  mask-image: linear-gradient(to bottom, black 15%, transparent 92%);
+}
+
+.signal-line {
+  background: linear-gradient(90deg, transparent, rgba(21, 215, 223, 0.75), rgba(21, 215, 223, 0.28), transparent);
+}
+
+.command-center {
+  animation: command-float 7s ease-in-out infinite;
+}
+
+.command-map {
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(21, 215, 223, 0.18), transparent 16%),
+    radial-gradient(circle at 78% 68%, rgba(21, 215, 223, 0.1), transparent 18%),
+    linear-gradient(rgba(21, 215, 223, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(21, 215, 223, 0.06) 1px, transparent 1px);
+  background-size: auto, auto, 34px 34px, 34px 34px;
+}
+
+@keyframes command-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}

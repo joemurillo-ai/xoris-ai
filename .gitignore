@@ -1,0 +1,13 @@
+.next/
+.next-build/
+.next-v05/
+.next-v06/
+.next-v08/
+.next-v09/
+node_modules/
+out/
+dist/
+*.log
+.env
+.env.*
+!.env.example
