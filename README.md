@@ -1,6 +1,8 @@
-# XORIS.ai v1
+# XORIS.ai — Commercial Growth Intelligence Landing Page
 
-World-class landing page for XORIS, a premium commercial growth infrastructure company serving construction, building materials, manufacturing, and distribution businesses nationwide.
+A Next.js landing-page prototype for a commercial growth intelligence concept serving construction, building materials, manufacturing, and distribution businesses.
+
+**Current scope:** frontend positioning and inquiry experience. This repository does not demonstrate a deployed intelligence engine, production control plane, financing backend, or autonomous agent infrastructure.
 
 ## Stack
 
@@ -9,7 +11,7 @@ World-class landing page for XORIS, a premium commercial growth infrastructure c
 - Tailwind CSS
 - Lucide React icons
 
-## Getting Started
+## Local development
 
 Install dependencies:
 
@@ -41,3 +43,13 @@ npm run build
 - The strategic review sections use simple email-based capture actions for v1.
 - The v1 homepage uses the cinematic bridge hero, a subtle XORIS X watermark, a simplified Growth Assessment card, national operator-focused positioning, relationship intelligence, image-led product cards, and an assessment request CTA.
 - The visual system is dark, premium, and enterprise-oriented with restrained teal/cyan accents.
+
+## Verification and boundaries
+
+Run `npm run build` before considering a deployment. This documentation change did not execute the build or verify a production environment. Review form destinations, analytics, privacy disclosures, and external links before publishing. Product descriptions are forward-looking unless accompanied by a working demo or implementation evidence.
+
+## Roadmap (not yet verified as implemented)
+
+- Add a reproducible screenshot and concise user journey.
+- Document any live integrations and their data handling separately from frontend mockups.
+- Add automated accessibility, lint, and build checks with published results.
